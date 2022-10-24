@@ -130,7 +130,6 @@ header section.header-info div.container div.box-image img.business-feature{
 main{
     padding-top: 8rem;
     width: 100%;
-    height: 200rem;
 
 }
 
@@ -400,8 +399,7 @@ main section.partners div.box-partner-description > blockquote > p{
 
 main section.partners div.join-dropbox-business{
     width: 100%;
-    height: 10rem;
-
+    height: 20rem;
     background-color: #bdcde4;
 
     display: flex;
@@ -419,4 +417,80 @@ main section.partners div.join-dropbox-business > h2{
 main section.partners div.join-dropbox-business > button{
     background-color: white;
     color: black;
+}
+
+main section.questions{
+    width: 60%; 
+    height: 38rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+
+}
+
+main section.questions h1{
+   font-size: 2rem;
+}
+
+main section.questions hr{
+    margin: 2rem 0rem;
+    color: #bdcde4;
+}
+
+main section.questions span{
+    margin-left: 24rem;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 31rem;
+}
+
+footer section.main-footer{
+    margin: 0 auto;
+    width: 70%;
+    
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    position: relative;
+}
+
+footer section.main-footer div.box-footer{
+    width: calc(100% / 5);
+
+    color: white;
+}
+
+footer section.main-footer div.box-footer h2{
+    padding-bottom: 1rem;
+
+}
+footer section.main-footer div.box-footer nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+}
+
+footer section.main-footer div.box-footer nav ul li{
+    padding: .2rem 0rem;
+}
+footer section.main-footer div.box-footer nav ul li a{
+    color: white;
+    padding: 0rem;
+}
+
+footer section.main-footer hr{
+    margin: 5rem 0;
+    color: white;
+    width: 8rem;
+}
+
+footer div.change-language{
+    position: absolute;
+    color: white;
+
+    bottom: 2px;
 }
