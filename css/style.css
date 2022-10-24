@@ -131,13 +131,12 @@ main{
 
 }
 
-
+        /*Caselle per la sottoscrizione di piani di abbonamento*/
 /*casella che racchiude tutta la sezione dei piani di abbonamento*/
 main section.subscription-plans{
     width: 60%;
-    height: 100rem;
+    height: 102rem;
     margin: 0 auto;
-  /*  border: 2px solid black;*/
 }
 
 main section.subscription-plans h1{
@@ -155,14 +154,13 @@ main section.subscription-plans div.plan{
     height: 70rem;
 
     margin-top: 2rem;
-    border: 2px solid black;
 
     
 }
 main section.subscription-plans div.plan-box{
     border: 1px solid black;
     width: 30%;
-    height: 50rem;
+    height: 100%;
 }
 
 main section.subscription-plans div.plan-box p.intestazione{
@@ -173,7 +171,10 @@ main section.subscription-plans div.plan-box p.intestazione{
 }
 
 main section.subscription-plans div.plan-box p,
-main section.subscription-plans div.plan-box h2{
+main section.subscription-plans div.plan-box h2,
+main section.subscription-plans div.plan-box h3,
+main section.subscription-plans div.plan-box-long h2,
+main section.subscription-plans div.plan-box-long p{
     padding: 1rem;
     font-size: 1.20rem;
 }
@@ -185,4 +186,85 @@ main section.subscription-plans div.plan-box div.button{
 main section.subscription-plans div.plan-box div.button button{
     padding: .5rem 2.5rem;
     font-size: 1.20rem;
+}
+
+
+main section.subscription-plans div.plan-box hr{
+    color: lightgray;
+    width: 4rem;
+    margin: 1.5rem 0rem 1.5rem 1rem;
+}
+
+
+main section.subscription-plans div.plan div.plan-box-long{
+    position: relative;
+
+    width: 100%;
+    height: 18rem;
+    border: 1px solid black;
+
+    margin-top: 3rem;
+}
+
+main section.subscription-plans div.plan div.plan-box-long>p.intestazione{
+    width: 100%;
+    height: 3rem;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: .5rem;
+}
+
+main section.subscription-plans div.plan div.plan-box-long > div.button{
+    position: absolute;
+    top: 81px;
+    right: 24px;
+ 
+}
+
+/*Parte per diventare partener*/
+
+main section.dropbox-partner{
+    width: 60%;
+    height: 40rem;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main section.dropbox-partner > div.image{
+    width: 60%;
+    height: 100%;
+}
+main section.dropbox-partner > div.image > img{
+    width: 700px;
+    height: 530px;
+}
+
+main section.dropbox-partner > div.image-description{
+    width: 30%;
+    height: 100%; 
+}
+
+main section.dropbox-partner > div.image-description h2,
+main section.dropbox-partner > div.image-description p,
+main section.dropbox-partner > div.image-description button{
+    margin-top: 2rem;
+}
+
+main section.dropbox-partner > div.image-description button.button-grey{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+
+}
+
+
+main section.dropbox-business{
+    width: 60%;
+    height: 40rem;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
 }
