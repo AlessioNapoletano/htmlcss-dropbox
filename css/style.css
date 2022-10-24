@@ -13,17 +13,15 @@
     width: 20%;
 }
 
-
-header{
+header section.main-header{
     width: 100%;
     height: 5rem;
-
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: center
+    
 }
-
 header nav.header-content{
     width: 30%;
     height: 80%;
@@ -115,3 +113,60 @@ header section.header-info div.container div.box-image img.business-feature{
     width: 107%;
     height: 118%;
 }
+
+
+
+                                                        /*MAIN*/
+
+main{
+    padding-top: 8rem;
+    width: 100%;
+    height: 200rem;
+
+}
+
+
+/*casella che racchiude tutta la sezione dei piani di abbonamento*/
+main section.subscription-plans{
+    width: 60%;
+    height: 100rem;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+main section.subscription-plans h1{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+main section.subscription-plans div.plan{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 70rem;
+
+    margin-top: 2rem;
+
+    
+}
+main section.subscription-plans div.plan-box{
+    border: 1px solid black;
+
+    width: 30%;
+    height: 30rem;
+}
+
+main section.subscription-plans div.plan-box p.intestazione{
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    border: 1px solid black;
+}
+
+main section.subscription-plans div.plan-box h2{
+    padding: 1rem;
+}
+

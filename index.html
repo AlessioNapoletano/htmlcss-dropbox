@@ -19,24 +19,27 @@
 <body>
 
     <header>
-        <nav class="header-content">
-            <img id="logo" src="./images/logo-small.png" alt="Logo Dropbox">
-
-            <ul>
-                <li><a href="#">Perchè Dropbox</a></li>
-                <li><a href="#">Funzioni</a></li>
-                <li><a href="#">Piani e Prezzi</a></li>
-            </ul>
-        </nav>
-        <nav class="header-content">
-            <ul>
-                <li><a href="#">Supporto</a></li>
-                <li><a href="#">Contatta l'ufficio vendite</a></li>
-                <li><a href="#">Accedi</a></li>
-
-                <button class="header-button">Inizia</button>
-            </ul>
-        </nav>
+        <section class="main-header">
+            <nav class="header-content">
+                <img id="logo" src="./images/logo-small.png" alt="Logo Dropbox">
+    
+                <ul>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e Prezzi</a></li>
+                </ul>
+            </nav>
+            <nav class="header-content">
+                <ul>
+                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li><a href="#">Accedi</a></li>
+    
+                    <button class="header-button">Inizia</button>
+                </ul>
+            </nav>
+        </section>
+        
 
         <section class="header-info">
             <div class="container">
@@ -64,14 +67,34 @@
                 <div class="box-image">
                     <img class="business-feature" src="./images/jumbo.png" alt="">
                 </div>
-
-
             </div>
-
         </section>
     </header>
 
     <main>
+        <section class="subscription-plans">
+            <h1>
+                Trova il piano di business che fa per te
+            </h1>
+
+            <input type="radio" name="Fatturazione" value="Fatturazione-mensile">
+            <label for="Fatturazione-mensile">Fatturazione mensile</label>
+            <input type="radio" name="Fatturazione" value="Fatturazione-annule">
+            <label for="Fatturazione-annuale">Fatturazione annuale</label>
+
+            <div class="plan">
+                <div class="plan-box">
+                    <p class="intestazione"><i class="fa-solid fa-user"></i> singolo</p>
+
+                    <h2>Professional</h2>
+
+                    <p>&euro; 12,00</p>
+                </div>
+                <div class="plan-box"></div>
+                <div class="plan-box"></div>
+            </div>
+            
+        </section>
 
     </main>
 
