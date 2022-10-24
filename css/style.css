@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
+.flex-wrap{
+    display: flex;
+    flex: wrap;
+}
 .font-grey{
     color: lightgray;
 }
@@ -230,6 +233,7 @@ main section.dropbox-partner{
     display: flex;
     justify-content: space-between;
 
+
 }
 
 main section.dropbox-partner > div.image{
@@ -262,9 +266,157 @@ main section.dropbox-partner > div.image-description button.button-grey{
 
 main section.dropbox-business{
     width: 60%;
-    height: 40rem;
     margin: 5rem auto;
+
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+main section.dropbox-business > h1{
+    width: 100%;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+main section.dropbox-business > h2{
+    width: 100%;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+main section.dropbox-business > div.box{
+    height: 35rem;
+    width: calc((100% / 3) - 2rem);
+    margin-right: 2rem;
+
+}
+
+main section.dropbox-business > div.box > img{
+    width: 350px;
+    height: 300px;
+}
+
+main section.dropbox-business > div.box > h1{
+    padding: 10rem 0rem 3rem 0rem;
+}
+
+main section.partners{
     border: 1px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 12rem;
+
+    width: 100%;
+}
+
+
+main section.partners div.box-partner{
+    width: calc(100% /3);
+    height: 36rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+main section.partners div.box-partner > div.box-image{
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main section.partners div.box-partner > div.box-image > img{
+    width: 150px;
+}
+
+.background-green{
+    background-color: #b0d49d;
+}
+
+.background-dark-red{
+    background-color: #53132f;
+}
+
+.background-light-blue{
+    background-color: #5a8cc9;
+}
+
+.background-red{
+    background-color: #d83333;
+}
+
+.background-world-bicycle{
+    background-color: #b3212f;
+}
+
+.background-hearst-corp{
+    background-color: #bdcde4;
+}
+
+.background-lonely-planet{
+    background-color: #26187c;
+}
+
+.background-clear-channel{
+    background-color: #f1dd50;
+}
+
+
+
+main section.partners div.box-partner-description{
+    background-color: #f5f5f5;
+
+    padding: 2rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+main section.partners div.box-partner-description > img{
+    width: 50%;
+}
+
+main section.partners div.box-partner-description > hr{
+    color: #cfcfd2;
+    width: 7rem;
+    margin: 3rem 0rem;
+}
+
+main section.partners div.box-partner-description > blockquote > p{
+    padding-bottom: 2rem;
+}
+
+
+main section.partners div.join-dropbox-business{
+    width: 100%;
+    height: 10rem;
+
+    background-color: #bdcde4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.partners div.join-dropbox-business > h2{
+    font-size: 2rem;
+    color: #531330;
+
+    padding-right: 5rem;
+}
+
+main section.partners div.join-dropbox-business > button{
+    background-color: white;
+    color: black;
 }
