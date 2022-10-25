@@ -4,18 +4,35 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-.flex-wrap{
+
+                    /*                                          GENERIC CLASS FLEX                                                   */
+.flex{
     display: flex;
-    flex: wrap;
 }
-.font-grey{
-    color: lightgray;
-}
+
 .flex-center{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.flex-align-items-center{
+    align-items: center;
+}
+
+.flex-space-between{
+    justify-content: space-between;
+}
+
+.flex-wrap{
+    flex: wrap;
+}
+
+/*                                                          GENERIC CLASS FONT                                                      */
+.font-grey{
+    color: lightgray;
+}
+
+
 #logo{
     width: 20%;
 }
@@ -27,29 +44,17 @@ button{
     padding: .5rem 1rem;
 }
 
+/*                                              SECTION MAIN HEADER (THE FIRTS HEADER IN PAGE)                              */
 header section.main-header{
     width: 100%;
     height: 5rem;
+    padding: 0rem 1rem;
+    
     background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center
-    
-}
-header nav.header-content{
-    width: 30%;
-    height: 80%;
-    
-
-    display: flex;
-    align-items: center;
 }
 
 nav ul{
     list-style-type: none;
-    display: flex;
-
-    padding: 0rem 1rem;
 }
 
 nav ul li a{
@@ -59,19 +64,8 @@ nav ul li a{
     padding: 0rem 1rem;
 }
 
-
-
-header button.header-button{
-    margin-left: 1rem;
-    
-}
-
+ /*                                             SECTION HEADER-INFO (THE SECOND PART OF THE HEADER)                    */                   
 header section.header-info{
-    width: 100%;
-    height: 44rem;
-    
-
-
     background-color: #bdcde4;
 }
 
@@ -169,7 +163,7 @@ main section.subscription-plans div.plan-box p.intestazione{
     text-align: center;
     width: 100%;
     height: 3rem;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 main section.subscription-plans div.plan-box p,
@@ -211,7 +205,7 @@ main section.subscription-plans div.plan div.plan-box-long{
 main section.subscription-plans div.plan div.plan-box-long>p.intestazione{
     width: 100%;
     height: 3rem;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
     padding-top: .5rem;
 }
@@ -335,6 +329,7 @@ main section.partners div.box-partner > div.box-image{
 
 main section.partners div.box-partner > div.box-image > img{
     width: 150px;
+    filter: invert(100%);
 }
 
 .background-green{
@@ -440,6 +435,7 @@ main section.questions span{
     margin-left: 24rem;
 }
 
+                                                   /*Footer*/
 footer{
     background-color: black;
     width: 100%;
