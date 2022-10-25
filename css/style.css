@@ -175,26 +175,26 @@ main section.containter-medium div.plan-box-long h3{
     font-size: 1.20rem;
 }
 
-
+/*margin e text align for centered the button in div*/
 main section.containter-medium div.plan-box div.button{
     text-align: center;
 
     margin: 3rem 0 1.5rem 0;
 }
-
+/*Font e padding for the button in div button*/
 main section.containter-medium div.plan-box div.button button{
     padding: .5rem 2.5rem;
     font-size: 1.20rem;
 }
 
-
+/*HR in the section*/
 main section.containter-medium div.plan-box hr{
     color: lightgray;
     width: 4rem;
     margin: 1.5rem 0rem 1.5rem 1rem;
 }
 
-
+/*box long in the section container-medium*/
 main section.containter-medium div.plans div.plan-box-long{
     position: relative;
 
@@ -205,91 +205,90 @@ main section.containter-medium div.plans div.plan-box-long{
     margin-top: 3rem;
 }
 
+/*position for the button in div plan-box-long */
 main section.containter-medium div.plans div.plan-box-long > div.button{
     position: absolute;
     top: 93px;
     right: 24px;
 }
 
-/*Parte per diventare partener*/
-
+/*                                      SECTION DROPBOX-PARTNER                                         */
+/*Margin for correct spacing*/
 main section.dropbox-partner{
-    width: 60%;
-    height: 40rem;
-    margin: 5rem auto;
-    display: flex;
-    justify-content: space-between;
-
-
+    margin: 10rem auto;
 }
 
+/*Width and height of the div.image*/
 main section.dropbox-partner > div.image{
     width: 60%;
     height: 100%;
 }
+
+/*width and height of the child image of the div*/
 main section.dropbox-partner > div.image > img{
     width: 700px;
     height: 530px;
 }
 
+/*width and height of the div.image-description*/
 main section.dropbox-partner > div.image-description{
     width: 30%;
     height: 100%; 
 }
 
+/*margin for correct spacing in the div.image-description*/
 main section.dropbox-partner > div.image-description h2,
 main section.dropbox-partner > div.image-description p,
 main section.dropbox-partner > div.image-description button{
     margin-top: 2rem;
 }
 
+/*button formatting (border, color and background color)*/
 main section.dropbox-partner > div.image-description button.button-grey{
     border: 1px solid black;
     color: black;
     background-color: white;
-
 }
 
-
+/*                                              SECTION DROPBOX-BUSINESS*/
+/*margin for correct spacing*/
 main section.dropbox-business{
-    width: 60%;
     margin: 5rem auto;
-
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-
 }
 
+/*width at 100% for the wrap, and formatting of the H1*/
 main section.dropbox-business > h1{
     width: 100%;
     padding-bottom: 2rem;
     font-size: 2rem;
 }
 
+/*width 100% for wrap the row, padding and font size */
 main section.dropbox-business > h2{
     width: 100%;
     padding-bottom: 2rem;
     font-size: 2rem;
 }
 
+/*width and margin for div.box, boxes that will contain the images*/
 main section.dropbox-business > div.box{
-    height: 35rem;
     width: calc((100% / 3) - 2rem);
-    margin-right: 2rem;
-
+    margin: 2rem 1rem 2rem 0;
 }
 
+/*width and height for img*/
 main section.dropbox-business > div.box > img{
     width: 350px;
     height: 300px;
 }
 
-main section.dropbox-business > div.box > h1{
-    padding: 10rem 0rem 3rem 0rem;
+/*padding for correct spacing, for div.count-business*/
+main section.dropbox-business div.count-business h1{
+    padding: 9rem 0rem 3.5rem 0rem;
 }
 
+
+/*                                          SECTION PARTNERS*/
 main section.partners{
     border: 1px solid black;
 
