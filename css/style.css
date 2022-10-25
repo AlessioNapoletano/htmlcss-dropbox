@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-                    /*                                          GENERIC CLASS FLEX                                                   */
+                    /*                        GENERIC CLASS FLEX                                                   */
 .flex{
     display: flex;
 }
@@ -24,14 +24,19 @@
 }
 
 .flex-wrap{
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
-/*                                                          GENERIC CLASS FONT                                                      */
+/*                                           GENERIC CLASS FONT                                                      */
 .font-grey{
     color: lightgray;
 }
 
+/*                                          GENERIC CLASS CONTAINER*/
+.container-large{
+    width: 70%;
+    margin: 0 auto;
+}
 
 #logo{
     width: 20%;
@@ -44,7 +49,7 @@ button{
     padding: .5rem 1rem;
 }
 
-/*                                              SECTION MAIN HEADER (THE FIRTS HEADER IN PAGE)                              */
+/*                                          SECTION MAIN HEADER (THE FIRTS HEADER IN PAGE)                              */
 header section.main-header{
     width: 100%;
     height: 5rem;
@@ -64,55 +69,49 @@ nav ul li a{
     padding: 0rem 1rem;
 }
 
- /*                                             SECTION HEADER-INFO (THE SECOND PART OF THE HEADER)                    */                   
+ /*                                         SECTION HEADER-INFO (THE SECOND PART OF THE HEADER)                    */  
+ /*Background color of the section header info*/                 
 header section.header-info{
     background-color: #bdcde4;
 }
 
-header section.header-info div.container{
-    /*SPAZIO TRA I DUE DIV, QUELLO DELLE INFO E QUELLO DELL'IMMAGINE*/
-    display: flex;
-    flex-wrap: wrap;
-
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-
-}
-
-header section.header-info div.container h1{
+/*Font e padding h1 in the header info*/
+header section.header-info div.container-large h1{
     font-size: 5rem;
 
     padding: 3rem 0rem;
 }
 
-header section.header-info div.container div.box-info{
+/* div with the info*/
+header section.header-info div.container-large div.box-info{
     width: 30%;
-    height: 24rem;
-
 }
 
-button.header-button-second{
+/* margin bottom for the button*/
+header section.header-info div.container-large button.header-button-second{
     margin-bottom: 2rem;
 }
 
-header section.header-info div.container div.box-info p{
+/* margin bottom for the paragraph, for spacing correct*/
+header section.header-info div.container-large div.box-info p{
     padding-bottom: 3rem;
 }
 
-header section.header-info div.container div.box-info i{
+/*font size and margin top for icon*/
+header section.header-info div.container-large div.box-info i{
     margin-top: 1rem;
     font-size: 3rem;
 }
 
-header section.header-info div.container div.box-image{
-    margin-left: 1rem;
-    width: 50%;
+/*Height of the div box-image and margin left, for correct spacing*/
+header section.header-info div.container-large div.box-image{
     height: 24rem;
 
+    margin-left: 1rem;
 }
 
-header section.header-info div.container div.box-image img.business-feature{
+/*width e height for image son of the div box-image*/
+header section.header-info div.container-large div.box-image > img{
     width: 107%;
     height: 118%;
 }
