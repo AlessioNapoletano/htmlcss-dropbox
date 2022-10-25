@@ -74,12 +74,14 @@ header section.main-header{
     padding: 0rem 1rem;
     
     background-color: white;
+    position: fixed;
 }
 
 
 /*                                          SECTION HEADER-INFO (THE SECOND PART OF THE HEADER)                    */  
-/*Background color of the section header info*/                 
+/*Background color of the section header info, and padding for correct spacing*/                 
 header section.header-info{
+    padding-top: 2rem;
     background-color: #bdcde4;
 }
 
@@ -182,11 +184,15 @@ main section.containter-medium div.plan-box div.button{
     margin: 3rem 0 1.5rem 0;
 }
 /*Font e padding for the button in div button*/
-main section.containter-medium div.plan-box div.button button{
+main section.containter-medium div.plan-box div.button button,
+main section.containter-medium div.plan-box-long div.button button{
     padding: .5rem 2.5rem;
     font-size: 1.20rem;
 }
 
+main section.containter-medium div.plan-box div.button button.button-padding-large{
+    padding: .5rem 5.9rem;
+}
 /*HR in the section*/
 main section.containter-medium div.plan-box hr{
     color: lightgray;
@@ -384,15 +390,16 @@ main section.join-dropbox-business div.containter-medium > h2{
 }
 
 /*background color and font color of the child element button*/
-main section.join-dropbox-business div.containter-medium > button{
+main section.join-dropbox-business div.containter-medium button{
     background-color: white;
     color: black;
+    padding: .6rem 2rem;
 }
 
 /*                                              SECTION QUESTIONS                               */
 /*padding of the section*/
 main section.questions{
-    padding: 8rem 0rem;
+    padding: 8rem 0rem 6rem 0rem;
 }
 
 /*font size and padding bottom for the child element h1*/
