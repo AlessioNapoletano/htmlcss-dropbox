@@ -59,8 +59,10 @@ button{
     background-color: #4a4af8;
     color: white;   
     padding: .5rem 1rem;
+    cursor: pointer;
 }
 
+/*Generic hover on the button*/
 button:hover{
     background-color: #3e3ed8;
 }
